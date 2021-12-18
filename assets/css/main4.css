@@ -2658,6 +2658,7 @@ input, select, textarea {
 				-webkit-transform: scale(1.05);
 				-ms-transform: scale(1.05);
 				transform: scale(1.05);
+				opacity: 0.5;
 				
 				}
 		@media screen and (max-width: 736px) {
