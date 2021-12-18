@@ -2684,6 +2684,15 @@ input, select, textarea {
 			transform: scale(1.05);
 		}
 
+	.image:hover {
+		-moz-transform: scale(1.05);
+		-webkit-transform: scale(1.05);
+		-ms-transform: scale(1.05);
+		transform: scale(1.05);
+		opacity: 0.8;
+		}
+
+
 /* Actions */
 
 	ul.actions {
