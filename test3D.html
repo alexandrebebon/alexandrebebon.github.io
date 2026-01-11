@@ -9,19 +9,45 @@
   </script>
 
   <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      margin: 20px 0;
+      text-align: center;
+    }
+
+    .viewer-container {
+      width: 50vw;
+      height: 50vh;
+      border: 4px solid #30cfcf; /* bleu turquoise */
+      box-sizing: border-box;
+    }
+
     model-viewer {
       width: 100%;
-      height: 100vh;
+      height: 100%;
     }
   </style>
 </head>
 <body>
 
-<model-viewer
-  src="test_glb2.glb"
-  camera-controls
-  auto-rotate>
-</model-viewer>
+<h1>
+  utilisation de "model-viewer" pour affichage d'un fichier .glb sur une page html
+</h1>
+
+<div class="viewer-container">
+  <model-viewer
+    src="test_glb2.glb"
+    camera-controls
+    auto-rotate>
+  </model-viewer>
+</div>
 
 </body>
 </html>
